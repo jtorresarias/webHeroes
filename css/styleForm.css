@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*estilo barra de descuentos*/
+.barDiscount{
+    width: 1440px;
+    height: 23px;
+    background-color: #1CD1B0;
+    color: black;
+}
+#descuento{
+    position: absolute;
+    width: 283px;
+    height: 18px;
+    top: 2px;
+    left: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+/*estilos header*/
+header{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #00669F;
+    color: aliceblue;
+    width: 1440px;
+    height: 81px;
+    position: absolute;
+    top: 23px;
+}
+#titulo{
+    width: 206px;
+    height: 35px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 23px;
+}
+#logoTienda{
+    width: 99px;
+    height: 74px;
+}
+/*estilos navegacion*/
+.navegacion{
+    width: 1440px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+}
+ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+li{
+    width: 87px;
+    height: 19px;
+    position: relative;
+    top: 10.5px;
+}
+/*estilos conteiner*/
+.conteiner{
+    width: 954px;
+    height: 832px;
+    position: absolute;
+    top: 184px;
+    left: 234px;
+    border-radius: 49px;
+    background-color: #00669F;
+}
+/*estilos encabezado formulario*/
+.formEncab{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 520px;
+    height: 86px;
+}
+#tituloForm{
+    width: 300px;
+    height: 72px;
+    position: relative;
+    top: 0;
+    left: 321px;
+    font-family: inter;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+}
+#inst{
+    width: 520px;
+    height: 14px;
+    position: relative;
+    top: 0px;
+    left: 217px;
+    font-family: inter;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+/*estilos formulario*/
+form{
+    width: 700px;
+    height: 730px;
+    position: relative;
+    top: 16px;
+    left: 127px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+.campos{
+    width: 343px;
+    height: 102px;
+}
+.file{
+    width: 335px;
+    height: 91px;
+}
+.campo2{
+    width: 343px;
+    height: 312px;
+}
+.casilla{
+    width: 343px;
+    height: 63px;
+    border-radius: 15px;
+}
